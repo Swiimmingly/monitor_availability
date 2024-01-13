@@ -1,0 +1,14 @@
+- name: google
+  url: https://google.com
+- body: '{"foo":"bar"}'
+  headers:
+    content-type: test
+    user-agent: test
+  method: POST
+  name: ggl
+  url: https://google.com
+- headers:
+    user-agent: fetch somethign
+  method: GET
+  name: duck
+  url: https://duckduckgo.com/
